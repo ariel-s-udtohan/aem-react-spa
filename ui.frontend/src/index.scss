@@ -14,6 +14,15 @@
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+
+ /* index.scss * /
+
+/* Normalize */
+@import '~normalize-scss/sass/normalize';
+
+@import './styles/variables';
+@import './styles/typography';
+
 /* Global styles */
 
 html,
@@ -30,14 +39,20 @@ body {
   background-color: #ffffff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-.nav-container,
-.rw-box {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-  color: #000000;
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// p,
+// .nav-container,
+// .rw-box {
+//   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+//   color: #000000;
+// }
+
+
+//spacing for header
+body.page {
+    padding-top: 160px;
 }

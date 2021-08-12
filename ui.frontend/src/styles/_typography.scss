@@ -1,0 +1,123 @@
+//_typography.scss
+
+@import 'variables';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  border: 0;
+  font-family: $font-family-sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: none;
+}
+
+h1.large {
+  font-size: 84px;
+  line-height: 84px;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+h2.large {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+p.large {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+p.medium {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p.small {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+p.xsmall {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+ol,
+ul,
+label {
+  font-family: $font-family-sans-serif;
+  font-style: normal;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+// smaller screen
+@media only screen and (max-width: $max-phone-screen) {
+  h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}

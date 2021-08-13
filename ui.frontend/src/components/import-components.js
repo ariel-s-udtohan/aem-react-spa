@@ -21,6 +21,10 @@ import './ExperienceFragment/ExperienceFragment';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
+// import './ProductCarousel/ProductCarousel';
+
+import './ProductDetail/ProductDetail';
+
 import {
     ContainerV1, ContainerV1IsEmptyFn,
     TabsV1, TabsV1IsEmptyFn,

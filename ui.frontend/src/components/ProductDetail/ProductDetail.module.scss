@@ -1,0 +1,41 @@
+.product-banner {
+  height: 297px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-banner__backdrop {
+  background-image: url("../../assets/media/icon-yes-large-jade.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00828a;
+  width: 100vw;
+  position: absolute;
+  height: 297px;
+  z-index: -1;
+}
+
+.product-banner__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Core / White */
+
+  color: #ffffff;
+}
+
+.product-banner__description {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  width: 800px;
+}

@@ -1,0 +1,81 @@
+@import "../../../styles/variables";
+
+.cmp-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: $brand-primary;
+  box-shadow: 0px 13px 33px -19px rgba(0, 0, 0, 0.17);
+
+  &__container {
+    display: flex;
+    height: 96px;
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__wrapper {
+    padding: 0 $gutter-padding;
+    width: 100%;
+  }
+
+  &__logo {
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    height: 96px;
+  }
+
+  &__right-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    height: 100%;
+    right: 0;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        position: static;
+        /* Inside Auto Layout */
+
+        flex: none;
+        flex-grow: 0;
+        margin: 0px 20px;
+        span {
+          color: white;
+          font-size: 14px;
+          line-height: 18px;
+          padding-left: 6px;
+        }
+      }
+    }
+  }
+
+  &__Logo {
+    z-index: 100;
+    display: flex;
+    padding-top: $gutter-padding;
+    padding-bottom: $gutter-padding;
+  }
+}

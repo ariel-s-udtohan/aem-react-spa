@@ -3,9 +3,9 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-08-18T10:18:32.711+08:00"
+        cq:lastModified="{Date}2021-08-18T11:12:57.115+08:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/spa-react/settings/wcm/templates/spa-page-template"
+        cq:template="/conf/spa-react/settings/wcm/templates/spa-page-template1"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="spa-react/components/page">
         <root

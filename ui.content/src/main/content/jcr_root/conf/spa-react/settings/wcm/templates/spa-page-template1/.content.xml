@@ -4,8 +4,10 @@
     <jcr:content
         cq:created="{Date}2018-10-22T17:08:28.689+05:30"
         cq:createdBy="admin"
-        jcr:description="SPA React Page Template"
+        cq:lastModified="{Date}2021-08-18T11:13:32.067+08:00"
+        cq:lastModifiedBy="admin"
+        jcr:description="Product Landing Page Template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="SPA Page"
+        jcr:title="Product Landing Page"
         status="enabled"/>
 </jcr:root>

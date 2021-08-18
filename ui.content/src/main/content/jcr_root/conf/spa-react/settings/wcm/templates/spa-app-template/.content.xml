@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2017-12-07T17:08:28.689+05:30"
+        cq:lastModified="{Date}2021-08-18T09:09:57.265+08:00"
         cq:lastModifiedBy="admin"
-        jcr:primaryType="cq:PageContent"
         jcr:description="SPA React Root Template"
+        jcr:primaryType="cq:PageContent"
         jcr:title="SPA Root"
-        status="enabled"/>
+        status="disabled"/>
 </jcr:root>
